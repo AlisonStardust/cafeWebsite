@@ -34,7 +34,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   /*Photo by Nathan Dumlao on Unsplash*/
+}
+
+.website_contact--map {
+  width: 100%;
+  border-style: none;
 }
 
 @media (min-width: 10px) and (max-width: 480px) {
