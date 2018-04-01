@@ -1,0 +1,76 @@
+.website {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  background-color: #CADBC0;
+}
+
+.website_header {
+  background-color: #2F0A28;
+  position: fixed;
+  text-transform: uppercase;
+  width: 100%;
+  border-bottom: 1px solid #CADBC0;
+  color: #CADBC0;
+  box-shadow: 0px 1px 1px #CADBC0;
+}
+
+.website_header--list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.website_introduction {
+  background-image: url('img/nathanDumlao.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*Photo by Nathan Dumlao on Unsplash*/
+}
+
+@media (min-width: 10px) and (max-width: 480px) {
+
+.website_header {
+  display: none;
+}
+
+.website_introduction {
+  height: 400px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 650px) {
+
+.website_header {
+  display: none;
+}
+
+.website_introduction {
+  height: 600px;
+}
+
+}
+
+@media (min-width: 651px) and (max-width: 1204px) {
+
+.website_introduction {
+  height: 700px;
+}
+}
+
+@media (min-width: 1205px) and (max-width: 3000px) {
+
+.website_introduction {
+  height: 800px;
+}
+}
