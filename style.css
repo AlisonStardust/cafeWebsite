@@ -38,6 +38,33 @@
   /*Photo by Nathan Dumlao on Unsplash*/
 }
 
+.website_introduction--button {
+  height: 100px;
+  width: 160px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2F0A28;
+  font-family: 'Amatic SC', cursive;
+  background-color: #2F0A28;
+  color: #CADBC0;
+}
+
+.website_about {
+
+}
+
+.website_about > h2 {
+
+}
+
+.website_about > p {
+
+}
+
+.website_about--image {
+
+}
+
 .website_contact--map {
   width: 100%;
   border-style: none;
@@ -53,6 +80,22 @@
   height: 400px;
 }
 
+.website_about {
+
+}
+
+.website_about > h2 {
+
+}
+
+.website_about > p {
+
+}
+
+.website_about--image {
+  height: 200px;
+  width: 200px;
+}
 }
 
 @media (min-width: 481px) and (max-width: 650px) {
