@@ -22,6 +22,13 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-content: space-around;
+  font-size: 2.2em;
+}
+
+.website_header--list > li {
+  padding-right: 20px;
+  padding-right: 20px;
 }
 
 .website_introduction {
@@ -47,22 +54,36 @@
   font-family: 'Amatic SC', cursive;
   background-color: #2F0A28;
   color: #CADBC0;
+  font-size: 1em;
 }
 
 .website_about {
-
+  display: flex;
+  padding: 20px;
 }
 
-.website_about > h2 {
+.website_about > span {
 
 }
 
 .website_about > p {
-
+  text-align: justify;
 }
 
 .website_about--image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.website_about--image::before {
+  content: 'i 💚';
+}
+
+.website_reviews {
+
+}
+
+.website_reviews > img {
+  border-radius: 100px;
 }
 
 .website_contact--map {
@@ -78,24 +99,33 @@
 
 .website_introduction {
   height: 400px;
+  font-size: 1.5em;
 }
 
 .website_about {
-
+ height: 830px;
+ flex-direction: column;
 }
 
-.website_about > h2 {
-
+.website_about > span {
+  font-size: 2.5em;
 }
 
 .website_about > p {
-
+  font-size: 1.1em;
 }
 
 .website_about--image {
   height: 200px;
   width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.website_contact--map {
+  height: 300px;
+}
+
 }
 
 @media (min-width: 481px) and (max-width: 650px) {
@@ -106,14 +136,33 @@
 
 .website_introduction {
   height: 600px;
+  font-size: 1.5em;
 }
 
+.website_about--image {
+  height: 300px;
+  width: 300px;
+}
+
+.website_contact--map {
+  height: 350px;
+}
 }
 
 @media (min-width: 651px) and (max-width: 1204px) {
 
 .website_introduction {
   height: 700px;
+  font-size: 2em;
+}
+
+.website_about--image {
+  height: 450px;
+  width: 450px;
+}
+
+.website_contact--map {
+  height: 350px;
 }
 }
 
@@ -121,5 +170,15 @@
 
 .website_introduction {
   height: 800px;
+  font-size: 2em;
+}
+
+.website_about--image {
+  height: 600px;
+  width: 600px;
+}
+
+.website_contact--map {
+  height: 450px;
 }
 }
