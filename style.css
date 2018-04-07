@@ -27,8 +27,8 @@
 }
 
 .website_header--list > li {
-  padding-right: 20px;
-  padding-right: 20px;
+  padding-right: 50px;
+  padding-right: 50px;
 }
 
 .website_introduction {
@@ -414,12 +414,72 @@
   font-size: 2em;
 }
 
+.website_contact--map {
+  height: 450px;
+}
+
+.website_about {
+  
+}
+
+.website_about > span {
+  font-size: 3em;
+}
+
+.website_about > p {
+  font-size: 2em;
+}
+
 .website_about--image {
   height: 600px;
   width: 600px;
 }
 
-.website_contact--map {
-  height: 450px;
+.website_service {
+  flex-wrap: wrap;
+  font-size: 2em;
+}
+
+.website_service > img {
+  height: 150px;
+  width: 150px;
+}
+
+.website_reviews {
+
+}
+
+.website_reviews > img {
+
+}
+
+.website_contact {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2em;
+  margin-top: 50px;
+}
+
+.website_contact > img {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+}
+
+.website_social {
+  justify-content: center;
+}
+
+.website_social > a img {
+  height: 170px;
+  width: 170px;
+  margin: 65px;
+}
+
+.website_footer {
+  font-size: 1.8em;
+  flex-direction: column;
+  align-items: center;
 }
 }
