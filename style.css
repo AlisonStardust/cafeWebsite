@@ -441,16 +441,20 @@
 }
 
 .website_service > img {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
 }
 
 .website_reviews {
-
+  padding-top: 100px;
+  font-size: 2em;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .website_reviews > img {
-
+  height: 150px;
+  width: 150px;
 }
 
 .website_contact {
