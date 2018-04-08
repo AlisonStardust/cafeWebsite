@@ -1,3 +1,6 @@
+const listItems = document.querySelectorAll('.website_header--list li');
+console.log(listItems);
+
 const aboutUsLink = document.querySelector('.website_header--listAboutUs');
 const serviceLink = document.querySelector('.website_header--listService');
 const reviewsLink = document.querySelector('.website_header--listReviews');
