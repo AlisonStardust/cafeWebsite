@@ -42,7 +42,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  letter-spacing: 0.2em;
+  text-shadow: 2px 2px #CADBC0;
+  animation: glow .5s infinite alternate;
   /*Photo by Nathan Dumlao on Unsplash*/
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 0 0 10px red;
+    }
 }
 
 .website_introduction--button {
@@ -55,6 +64,7 @@
   background-color: #2F0A28;
   color: #CADBC0;
   font-size: 1em;
+  box-shadow: 2px 2px #CADBC0;
 }
 
 .website_about {
