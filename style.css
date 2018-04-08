@@ -29,7 +29,13 @@
 .website_header--list > li {
   padding-right: 50px;
   padding-right: 50px;
+  cursor: pointer;
 }
+
+/*.website_header--list > li:hover:before {
+  content: "ALA";
+  color: black;
+}*/
 
 .website_introduction {
   background-image: url('img/nathanDumlao.jpg');
@@ -43,21 +49,20 @@
   align-items: center;
   flex-direction: column;
   letter-spacing: 0.2em;
-  text-shadow: 2px 2px #CADBC0;
-  animation: glow .5s infinite alternate;
+  text-shadow: 0px 0px 20px #CADBC0;
+  animation: glow 1s infinite alternate linear;
   /*Photo by Nathan Dumlao on Unsplash*/
 }
 
 @keyframes glow {
-    to {
-        text-shadow: 0 0 10px red;
-    }
+  to {
+    text-shadow: 0px 0px 20px #2F0A28;
+  }
 }
 
 .website_introduction--button {
   height: 100px;
   width: 160px;
-  background-color: transparent;
   border-radius: 50px;
   border: 2px solid #2F0A28;
   font-family: 'Amatic SC', cursive;
@@ -65,6 +70,15 @@
   color: #CADBC0;
   font-size: 1em;
   box-shadow: 2px 2px #CADBC0;
+  cursor: pointer;
+  outline: none;
+}
+
+.website_introduction--button:hover {
+  transition: 0.5s;
+  background-color: #CADBC0;
+  color: #2F0A28;
+  box-shadow: 2px 2px #2F0A28;
 }
 
 .website_about {
@@ -84,8 +98,9 @@
   display: flex;
 }
 
-.website_service > img {
-
+.website_service > img:hover {
+  transform: rotate(360deg);
+  transition-duration: 5s;
 }
 
 .website_reviews {
@@ -429,7 +444,7 @@
 }
 
 .website_about {
-  
+  flex-wrap: wrap;
 }
 
 .website_about > span {
@@ -438,11 +453,12 @@
 
 .website_about > p {
   font-size: 2em;
+  width: 50%;
 }
 
 .website_about--image {
-  height: 600px;
-  width: 600px;
+  height: 500px;
+  width: 500px;
 }
 
 .website_service {
@@ -451,8 +467,8 @@
 }
 
 .website_service > img {
-  height: 180px;
-  width: 180px;
+  height: 160px;
+  width: 160px;
 }
 
 .website_reviews {

@@ -13,17 +13,18 @@ const service = document.querySelector('.website_service');
 const reviews = document.querySelector('.website_reviews');
 const contact = document.querySelector('.website_contact');
 
-//moving to element events
 const moveToAbout = () => moveToElement(about);
-const moveToService = () => moveToElement(service);
-const moveToReviews = () => moveToElement(reviews);
-const moveToContact = () => moveToElement(contact);
-
 aboutUsLink.addEventListener("click", moveToAbout);
-serviceLink.addEventListener("click", moveToService);
-reviewsLink.addEventListener("click", moveToReviews);
-contactLink.addEventListener("click", moveToContact);
 button.addEventListener("click", moveToAbout);
+
+const moveToService = () => moveToElement(service);
+serviceLink.addEventListener("click", moveToService);
+
+const moveToReviews = () => moveToElement(reviews);
+reviewsLink.addEventListener("click", moveToReviews);
+
+const moveToContact = () => moveToElement(contact);
+contactLink.addEventListener("click", moveToContact);
 
 //function moving to element itself
 function moveToElement(where) {
