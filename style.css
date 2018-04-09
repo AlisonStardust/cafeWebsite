@@ -29,6 +29,10 @@
 .website_header--list > li {
   padding-right: 50px;
   padding-right: 50px;
+}
+
+.website_header--list > li:hover {
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -123,6 +127,10 @@
 
 .website_social {
   display: flex;
+}
+
+.website_social > a:hover {
+  opacity: 0.8;
 }
 
 .website_footer {
@@ -445,20 +453,25 @@
 
 .website_about {
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .website_about > span {
   font-size: 3em;
+  margin-right: 1000px;
+  margin-left: 60px;
 }
 
 .website_about > p {
   font-size: 2em;
   width: 50%;
+  margin: 60px;
 }
 
 .website_about--image {
-  height: 500px;
-  width: 500px;
+  height: 460px;
+  width: 460px;
+  margin: auto;
 }
 
 .website_service {
@@ -466,21 +479,34 @@
   font-size: 2em;
 }
 
+.website_reviews {
+  flex-direction: column;
+}
+
 .website_service > img {
-  height: 160px;
-  width: 160px;
+  height: 155px;
+  width: 155px;
+}
+
+.website_reviews > h2 {
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 .website_reviews {
+  align-items: center;
   padding-top: 100px;
   font-size: 2em;
   flex-wrap: wrap;
   justify-content: space-around;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .website_reviews > img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
+  margin: 50px;
 }
 
 .website_contact {
