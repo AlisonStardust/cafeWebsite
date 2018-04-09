@@ -31,6 +31,10 @@
   padding-right: 50px;
 }
 
+.website_header--list > li:before {
+  content: "☕";
+}
+
 .website_header--list > li:hover {
   opacity: 0.8;
   cursor: pointer;
@@ -114,6 +118,12 @@
 .website_reviews > img {
   border-radius: 100px;
   border: 5px solid #2F0A28;
+  transition: transform 0.8s;
+  background-color: black;
+}
+
+.website_reviews > img:hover {
+  transform: rotate3d(1, 2.0, 3.0, 15deg);
 }
 
 .website_contact {
@@ -474,9 +484,16 @@
   margin: auto;
 }
 
+.website_service > h2 {
+  font-size: 1.5em;
+  margin-right: 1000px;
+  margin-left: 60px; 
+}
+
 .website_service {
   flex-wrap: wrap;
   font-size: 2em;
+  margin: 20px;
 }
 
 .website_reviews {

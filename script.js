@@ -10,7 +10,7 @@ const button = document.querySelector('.website_introduction--button');
 
 const about = document.querySelector('.website_about span');
 const service = document.querySelector('.website_service h2');
-const reviews = document.querySelector('.website_reviews h2');
+const reviews = document.querySelector('.website_reviews');
 const contact = document.querySelector('.website_contact h3');
 
 const moveToAbout = () => moveToElement(about);
