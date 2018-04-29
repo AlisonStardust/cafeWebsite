@@ -484,25 +484,28 @@
   margin: auto;
 }
 
-.website_service > h2 {
-  font-size: 1.5em;
-  margin-right: 1000px;
-  margin-left: 60px; 
-}
-
 .website_service {
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: flex-end;
   font-size: 2em;
   margin: 20px;
 }
 
-.website_reviews {
-  flex-direction: column;
+.website_service > h2 {
+  font-size: 1.5em;
+  margin-right: 800px;
 }
 
 .website_service > img {
-  height: 155px;
-  width: 155px;
+  height: 180px;
+  width: 180px;
+  padding: 50px;
+}
+
+.website_service > span {
+
 }
 
 .website_reviews > h2 {
